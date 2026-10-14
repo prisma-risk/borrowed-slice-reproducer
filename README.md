@@ -1,5 +1,7 @@
 # Borrowed-slice reproducer
 
+[![DOI](https://zenodo.org/badge/1419939792.svg)](https://doi.org/10.5281/zenodo.23381245)
+
 A small, self-contained Rust crate that reproduces the ownership-induced split described in the paper *When a Borrowed Slice Splits Replicas: Deterministic Resource Metering in a Replicated State Machine*. It uses only the Rust standard library and contains no code from the system the paper studies.
 
 ## What it shows
