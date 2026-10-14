@@ -1,0 +1,15 @@
+[package]
+name = "borrowed-slice-reproducer"
+version = "1.0.0"
+edition = "2024"
+publish = false
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/prisma-risk/borrowed-slice-reproducer"
+readme = "README.md"
+description = "A meter that charges only owned copies lets replica-local residency decide a replicated outcome."
+
+[features]
+# Build the defective meter as the default read path: retained bytes are charged only when the store returns an owned copy. The regression tests fail under this feature.
+owned-copy-meter = []
+
+[dependencies]

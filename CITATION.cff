@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Borrowed-slice reproducer"
+abstract: "A meter that charges only owned copies lets replica-local residency decide a replicated outcome. This crate reproduces the split and its correction."
+version: 1.0.0
+authors:
+  - family-names: Thiebaud
+    given-names: Sebastian
+    affiliation: PrismaRisk
+    orcid: "https://orcid.org/0009-0001-2813-5412"
+repository-code: "https://github.com/prisma-risk/borrowed-slice-reproducer"
